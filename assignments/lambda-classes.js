@@ -57,7 +57,7 @@ class ProjectManagers extends Instructor {
     console.log(`${this.name} announces to ${slack}, @channel standby times!`)
     }
     debugsCode(student, subject){
-    console.log(`${this.name} debugs ${student.name}'s code on ${subject}.`)
+    console.log(`${this.name} debugs ${student}'s code on ${subject}.`)
     }
 }
 
@@ -157,5 +157,5 @@ studentOne.sprintChallenge("Flex-Box");
 studentTwo.sprintChallenge("Git and Terminal");
 PMOne.standUp("Webb22-Christina");
 PMTwo.standUp("Webb22_AH");
-PMOne.debugsCode("JavaScript");
-PMTwo.debugsCode("Closures");
+PMOne.debugsCode("John","JavaScript");
+PMTwo.debugsCode("Jim","Closures");
